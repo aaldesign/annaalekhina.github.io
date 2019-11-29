@@ -1,0 +1,17 @@
+< link  rel = "таблица стилей"  href = "editor.md/css/editormd.min.css" / >
+< div  id = "редактор" >
+ <!-- Советы: Editor.md можно автоматически добавить тег "<textarea> " < textarea > -- > >
+ < textarea  style = "display : none ;" > # # # Hello Editor.md -что?< / textarea>
+< / div>
+< скрипт  src = " jquery.минута.js " > > < / script>
+< скрипт  src = "editor.md/editormd.min.js" > > < / script>
+<сценарий тип="текст/JavaScript">
+    $(функция() {
+        ВАР редактор = editormd("редактор", {
+            // ширина: "100%",
+            // высоты: "100%",
+            // уценки: "ХХХХ", // динамический набор уценки текста
+ путь : "редактор.МД/Либ/"  // загрузки модулей режим, codemirror, отмеченные... зависимые элементы libs path 
+});
+}); 
+< / script>
